@@ -6,7 +6,7 @@ function shellSort(arr) {
     var len = arr.length,
         temp,
         gap=1
-    while(gap<len/3){
+    while(gap<len/3){       //动态定义间隔序列
         gap = gap*3+1
     }
     for(gap;gap>0;gap=Math.floor(gap/3)){

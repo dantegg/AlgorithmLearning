@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b96f70e-b1a8-414c-b2a1-99c3077844e9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/selectionSort/py/selectionSort.py" afterPath="$PROJECT_DIR$/selectionSort/py/selectionSort.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shellSort/js/shellSort.js" afterPath="$PROJECT_DIR$/shellSort/js/shellSort.js" />
     </list>
     <ignored path="AlgorithmLearning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +41,8 @@
       <file leaf-file-name="shellSort.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shellSort/js/shellSort.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+            <state relative-caret-position="107">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
               <folding>
                 <element signature="n#!!doc;n#shellSort#0" expanded="false" />
               </folding>
@@ -239,12 +239,12 @@
       <workItem from="1479394384091" duration="990000" />
       <workItem from="1479526596834" duration="1000" />
       <workItem from="1479738648260" duration="1379000" />
-      <workItem from="1480172754548" duration="347000" />
+      <workItem from="1480172754548" duration="585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3307000" />
+    <option name="totallyTimeSpent" value="3545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="23" width="1391" height="877" extended-state="6" />
@@ -370,8 +370,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shellSort/js/shellSort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        <state relative-caret-position="107">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding>
             <element signature="n#!!doc;n#shellSort#0" expanded="false" />
           </folding>
