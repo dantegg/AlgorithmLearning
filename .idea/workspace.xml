@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9b96f70e-b1a8-414c-b2a1-99c3077844e9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shellSort/js/shellSort.js" afterPath="$PROJECT_DIR$/shellSort/js/shellSort.js" />
     </list>
     <ignored path="AlgorithmLearning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,13 +37,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shellSort.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shellSort.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shellSort/js/shellSort.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
+            <state relative-caret-position="114">
               <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
               <folding>
                 <element signature="n#!!doc;n#shellSort#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeSort.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MergeSort/js/MergeSort.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+              <folding>
+                <element signature="n#!!doc;n#mergeSort#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -74,6 +85,7 @@
         <option value="$PROJECT_DIR$/selectionSort/py/selectionSort.py" />
         <option value="$PROJECT_DIR$/InsertionSort/js/InsertionSort.js" />
         <option value="$PROJECT_DIR$/shellSort/js/shellSort.js" />
+        <option value="$PROJECT_DIR$/MergeSort/js/MergeSort.js" />
       </list>
     </option>
   </component>
@@ -114,6 +126,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -142,7 +155,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shellSort" />
+              <option name="myItemId" value="MergeSort" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -152,7 +165,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -239,12 +251,13 @@
       <workItem from="1479394384091" duration="990000" />
       <workItem from="1479526596834" duration="1000" />
       <workItem from="1479738648260" duration="1379000" />
-      <workItem from="1480172754548" duration="585000" />
+      <workItem from="1480172754548" duration="928000" />
+      <workItem from="1480349686042" duration="600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3545000" />
+    <option name="totallyTimeSpent" value="4488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="23" width="1391" height="877" extended-state="6" />
@@ -285,6 +298,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/InsertionSort/js/InsertionSort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding>
+            <element signature="n#!!doc;n#insertSort#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shellSort/js/shellSort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#shellSort#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/InsertionSort/js/InsertionSort.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -370,10 +403,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shellSort/js/shellSort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
+        <state relative-caret-position="114">
           <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding>
             <element signature="n#!!doc;n#shellSort#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MergeSort/js/MergeSort.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc;n#mergeSort#0" expanded="false" />
           </folding>
         </state>
       </provider>
