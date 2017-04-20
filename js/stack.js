@@ -75,3 +75,5 @@ function forwardFunc(element) {
 
 var resultString = forwardFunc(testCaculateString)
 print(resultString)
+
+module.exports= stack
