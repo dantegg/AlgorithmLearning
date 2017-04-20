@@ -41,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/countingSort/js/countingSort.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+              <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
               <folding>
                 <element signature="n#!!doc;n#countingSort#0" expanded="false" />
               </folding>
@@ -145,7 +145,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
+    <option name="x" value="69" />
     <option name="y" value="23" />
     <option name="width" value="1388" />
     <option name="height" value="877" />
@@ -304,18 +304,18 @@
       <workItem from="1480349686042" duration="1145000" />
       <workItem from="1480431472427" duration="1405000" />
       <workItem from="1481958892038" duration="1476000" />
-      <workItem from="1482066049040" duration="535000" />
+      <workItem from="1482066049040" duration="779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8449000" />
+    <option name="totallyTimeSpent" value="8693000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="23" width="1388" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="69" y="23" width="1388" height="877" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2479883" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2479883" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -625,7 +625,7 @@
     <entry file="file://$PROJECT_DIR$/countingSort/js/countingSort.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
           <folding>
             <element signature="n#!!doc;n#countingSort#0" expanded="false" />
           </folding>
