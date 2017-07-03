@@ -15,6 +15,9 @@ function BST() {
     this.inOrder = inOrder
     this.preOrder = preOrder
     this.postOrder = postOrder
+    this.getMax = getMax
+    this.getMin = getMin
+    this.find = find
 }
 
 function insert(data) {
@@ -67,4 +70,33 @@ function postOrder(node) {
     }
 }
 
+function getMin() {
+    var current = this.root
+    while(!(current.left == null)) {
+        current = current.left
+    }
+    return current.data
+}
+
+function getMax() {
+    var current = this.root
+    while(!(current.right === null)) {
+        current = current.right
+    }
+    return current.data
+}
+
+function find(data) {
+    var current = this.root
+    while( current !== null ) {
+        if (current.data === data) {
+            return current
+        } else if (data < current.data) {
+            current = current.left
+        } else {
+            current = current.right
+        }
+    }
+    return null
+}
 module.exports = BST

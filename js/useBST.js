@@ -17,3 +17,16 @@ nums.preOrder(nums.root)
 
 console.log('PostOrder traversal')
 nums.postOrder(nums.root)
+
+var min = nums.getMin()
+console.log('the minium value of the BST is ' + min)
+var max = nums.getMax()
+console.log('the max value of the BST is ' + max)
+var value = 37
+var found  = nums.find(value)
+
+if (found !== null) {
+    console.log('Found　' +　value + ' in the BST')
+} else {
+    console.log(value + ' was not found in the BST')
+}
