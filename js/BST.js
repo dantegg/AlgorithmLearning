@@ -125,4 +125,42 @@ function removeNode(node, data) {
         node.right = removeNode(node.right)
     }
 }
+
+function remove(data) {
+    root = removeNode(this.root, data)
+}
+
+function removeNode(node, data) {
+    if (node === null) {
+        return null
+    }
+    if (data === node.data) {
+        // no children node
+        if (node.left === null && node.right === null ) {
+            return null
+        }
+        // no left leaf node
+        if (node.left === null) {
+            return node.right
+        }
+        // no right leaf node
+        if (node.right === null) {
+            return node.left
+        }
+        // two child nodes
+        var tempNode = getSmallest(node.right)
+        node.data = tempNode.data
+        node.right = removeNode(node.right, tempNode.data)
+        return node
+    } else if (data < node.data) {
+        node.left = removeNode(node.left, data)
+        return node
+    } else {
+        node.right = removeNode(node.right, data)
+        return node
+        
+    }
+}
+
+
 module.exports = BST
