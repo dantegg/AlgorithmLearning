@@ -18,6 +18,8 @@ function BST() {
     this.getMax = getMax
     this.getMin = getMin
     this.find = find
+    this.remove = remove
+    this.removeNode = removeNode
 }
 
 function insert(data) {
@@ -98,5 +100,29 @@ function find(data) {
         }
     }
     return null
+}
+
+function remove(data) {
+    root = removeNode(this.root, data)
+}
+
+function removeNode(node, data) {
+    if (node === null) {
+        return null
+    }
+    if (data === node.data) {
+        if (node.left === null && node.right === null) {
+            return null
+        }
+        if (node.left === null) {
+            return node.right
+        }
+        if (node.right === null) {
+            return node.left
+        }
+        var tempNode = getSmallest(node.right)
+        node.data = tempNode.data
+        node.right = removeNode(node.right)
+    }
 }
 module.exports = BST
